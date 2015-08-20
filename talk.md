@@ -1,26 +1,25 @@
-### ¿Quien soy?
+### 1.- ¿Quien soy?
 
-| Nombre | Puesto | Empresa | Que hago |
+| Nombre | Puesto | Empresa | ¿Qué hago? |
 | :------- | :------: | :-----: |
-| Javier López López   | Tech Lead México | Clickbus (rocket-internet.de)|Team management, Deploys, Code Review, Git managment
+| Javier López López | Tech Lead México | [http://www.clickbus.com.mx/](http://www.clickbus.com.mx/) |Team management, Deploys, Code Review, Git managment
 
-| Experiencia | Me gusta | Blog
-| :------- | :------: | :-----:
+| Experiencia | Me gusta | Blog |
+| :------- | :------: | :-----: |
 | 7 años PHP| Linux, Vim, PHP, Symfony, Redis, Scrum, Cloud Computing(Amazon), Ansible, Clean Code | [http://www.devjlopez.com/](http://www.devjlopez.com/) |
 
 |  |
 | :-------: |
 | !["http://www.devjlopez.com/"](http://devjlopez.s3-us-west-1.amazonaws.com/wp-content/uploads/2015/08/18042727/Screen-Shot-2015-08-17-at-11.24.35-PM-e1439872195904.png) |
 
-[Second Slide >>](#second)
+[ Next >>](#second)
 <br>
 ***
 
 <a name="second"></a>
 
 <br><br>
-### PHP a traves del tiempo
-
+### 2.- PHP a través del tiempo
 
 ## Historia de PHP
 
@@ -39,17 +38,15 @@
 | 5.3 | namespaces, funciones anonimas,  soporte para archivos PHAR, mysqlnd  |
 | 5.4 | Soporte para traits, sintaxis abreviada para arrays ([]), se removieron register_globals, servidor web incorporado  |
 | 5.5 | empty() ahora soporta expresiones, se agregaron generadores (yield), se agregó finally a los bloques * try-catch *, nueva Api para hash de contraseñas(ahora es mas fácil con password_hash())  |
-| 5.6 | Expresiones en constantes, Funciones variádicas `function d($a, ...$arguments)`, se agregó el método mágico __debugInfo() |
+| 5.6 | Expresiones en constantes, Funciones variádicas `function d($a, ...$arguments)`, se agregó el método mágico `__debugInfo()` |
 
 
-[<< Second Slide](#second)
+[<< Previous ](#first)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[Third Slide>>](#third)
-***
-<a name="third"></a>
-### PHP 7.0 RC
+[ Next >>](#third)
+<br><br><br><a name="third"></a><br><br><br><br><br>
+### 3.- PHP 7.0 RC
 
 
 #### Features
@@ -58,7 +55,8 @@
 - Podremos declarar el tipo de retorno
 
    ```php
-   function getData(): array
+   <?php
+  function getData(): array
   {
       return [];
   }
@@ -67,14 +65,23 @@
 - Rendimiento: PHP7 esta construido sobre PHPNG(PHP Next-Gen) desarrollado por Zend logrando un aumento de rendimiento entre el 20% hasta un 70%
 
 
+!["Benchmark"](http://devjlopez.s3-us-west-1.amazonaws.com/wp-content/uploads/2015/08/20045206/i%CC%81ndice-e1440046519686.png)
 
-[<< Third Slide](#third)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[Fourth Slide>>](#third)
-
+[<< Previous ](#second)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[ Next >>](#fourth)
+<br><br><br>
 ***
-<a name="third"></a>
-### Uso PHP 5.3 por que es estable
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<a name="fourth"></a>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+### 4.- Uso PHP 5.3 por que es estable
 
 
 #### Estable?
@@ -87,16 +94,20 @@
   - Features muy interesantes
   - Soporte hasta Agosto 2017
   - Es mejor estar preparado para el salto a PHP 7.0
-
-[<< Third Slide](#third)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[Fourth Slide>>](#third)
+  <br><br><br>
+  <br><br><br>
+  <br><br><br>
+  <br><br><br>
+  <br><br><br>
+  <br><br><br>
+  [<< Previous ](#third)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  [ Next >>](#fifth)
 
 ***
-<a name="third"></a>
-### PHP es más que solo código
+<a name="fifth"></a>
+### 5.- PHP es más que solo código
 
 #### Comunidad
 - PHP-FIG [http://www.php-fig.org/](http://www.php-fig.org/)
@@ -112,30 +123,30 @@
   - The PHP Package Repository
 - PHP la forma correcta:
   - [http://www.phptherightway.com/](http://www.phptherightway.com/)
+  <br><br><br>
+  <br><br><br>
+  <br><br><br>
+  <br><br><br>
+  <br><br><br>
 
-
-  [<< Third Slide](#third)
+  [<< Previous ](#fifth)
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  [Fourth Slide>>](#third)
+  [ Next >>](#sixth)
 
   ***
-  <a name="third"></a>
-  ### ¿Preguntas?
-
+  <a name="sixth"></a>
+  ### 6.- ¿Preguntas?
 
 ```php
 <?php
 namespace Jlopez\Talk;
-
 /**
  * Class Questions
  * @package Jlopez\Talk
  */
 class Questions
 {
-
     /**
      * @var string
      */
@@ -146,16 +157,12 @@ class Questions
         $this->question = $question;
     }
 
-    /**
-     * @return array
-     */
     public function __debugInfo()
     {
         return [
             'question' => $this->question,
         ];
     }
-
 }
 
 $talk = new Questions('...');
@@ -166,3 +173,18 @@ object(Questions)#1 (1) {
   string('...')
 }*/
 ```
+[<< Previous ](#fifth)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[ Next >>](#seventh)
+<br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br>
+  <a name="seventh"></a>
+#¡Gracias!
+##¡Gracias!
+###¡Gracias!
+####¡Gracias!
+<br>
+
+Javier López López | twitter: [@ajaxman](http://twitter.com/ajaxman) | [http://www.devjlopez.com/](http://www.devjlopez.com/)
