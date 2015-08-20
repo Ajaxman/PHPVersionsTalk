@@ -1,7 +1,7 @@
 ### 1.- ¿Quien soy?
 
 | Nombre | Puesto | Empresa | ¿Qué hago? |
-| :------- | :------: | :-----: |
+| :------- | :------: | :-----: | :------- |
 | Javier López López | Tech Lead México | [http://www.clickbus.com.mx/](http://www.clickbus.com.mx/) |Team management, Deploys, Code Review, Git managment
 
 | Experiencia | Me gusta | Blog |
