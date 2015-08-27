@@ -1,12 +1,8 @@
 ### 1.- ¿Quien soy?
 
-| Nombre | Puesto | Empresa | ¿Qué hago? |
-| :------- | :------: | :-----: | :------- |
-| Javier López López | Tech Lead México | [http://www.clickbus.com.mx/](http://www.clickbus.com.mx/) |Team management, Deploys, Code Review, Git managment
-
-| Experiencia | Me gusta | Blog |
-| :------- | :------: | :-----: |
-| 7 años PHP| Linux, Vim, PHP, Symfony, Redis, Scrum, Cloud Computing(Amazon), Ansible, Clean Code | [http://www.devjlopez.com/](http://www.devjlopez.com/) |
+| Nombre | Experiencia | Me gusta | Blog |
+| :-------  | :------- | :------: | :-----: |
+| Javier López López | 7 años PHP| Linux, Vim, PHP, Symfony, Redis, Scrum, Cloud Computing(Amazon), Ansible, Clean Code | [http://www.devjlopez.com/](http://www.devjlopez.com/) |
 
 |  |
 | :-------: |
